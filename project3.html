@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Page</title>
+    <link rel="stylesheet" href="project3(CSS).css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://www.amazon.in/ref=nav_logo">Home</a></li>
+            <li><a href="https://www.amazon.in/gp/bestsellers/ref=zg_bsnr_tab_bs">Shop</a></li>
+            <li><a href="https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token
+                =2075D5EAC7BB214089728E2183FD391706D41E94&6">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="product-container">
+        <div class="product-image">
+            <a href="https://www.amazon.in/iPhone-16-Pro-256-GB/dp/B0DGJC8DG8/ref=sr_1_3?crid=3DR4KGMBN8EKO&dib=eyJ2IjoiMSJ9.
+            LainLO2EOZVHls_8uZ2x0trrm_4ozYWJlgu-do5pYy7XTJ1abKWIbkAalnwlZxxIN4uJqHPRWMskkNOk1k8zrHUmPO5ltoytjrvo0YDefrGJqSmv9p
+            6tfjnja014E_iQrgomgq0F5GBgjELDV16QWXX9B0eV_QXhzwSplk-97zvstLQuS2yOKXuLpo435aoPNQp7-ZsUHXDkf7MI_K5kJIC01mgmetPwVn8GLv
+            nn27I.uC9tVPQndZFSC2U7EG6lO4VZ6qZ1WkOk3RguDmp777w&dib_tag=se&keywords=i%2Bphone16%2Bpro&qid=1738403107&sprefix=%2Caps
+            %2C265&sr=8-3&th=1">
+            <img src="https://m.media-amazon.com/images/I/61Ony8rgwEL.SX679.jpg" alt="Product Image">
+            </a>
+        </div>
+        <div class="product-details">
+            <h1 class="product-name">iPhone 16 Pro 256 GB: 5G Mobile Phone</h1>
+            <p class="product-description">Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Black Titanium</p>
+            <p class="product-price">₹1,22,900</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="additional-sections">
+        <div class="customer-reviews">
+            <h2><a href="https://www.amazon.in/iPhone-16-Pro-256-GB/dp/B0DGJC8DG8/ref=sr_1_3?crid=3DR4KGMBN8EKO&dib=eyJ2Ijoi
+                MSJ9.LainLO2EOZVHls_8uZ2x0trrm_4ozYWJlgu-do5pYy7XTJ1abKWIbkAalnwlZxxIN4uJqHPRWMskkNOk1k8zrHUmPO5ltoytjrvo0YD
+                efrGJqSmv9p6tfjnja014E_iQrgomgq0F5GBgjELDV16QWXX9B0eV_QXhzwSplk-97zvstLQuS2yOKXuLpo435aoPNQp7-ZsUHXDkf7MI_K5kJI
+                C01mgmetPwVn8GLvnn27I.uC9tVPQndZFSC2U7EG6lO4VZ6qZ1WkOk3RguDmp777w&dib_tag=se&keywords=i%2Bphone16%2Bpro&qid=173840
+                3107&sprefix=%2Caps%2C265&sr=8-3&th=1#customerReviews">
+                Customer Reviews</a></h2>
+                <h1>4.2 out of 5</h1>
+            
+        </div>
+
+        
+        <div class="related-products">
+            <h2><a href="https://www.amazon.in/stores/Apple/page/88D59F86-9161-4804-A524-0A5B39CD714A?ref_=ast_bln&store_ref=
+                bl_ast_dp_brandLogo_sto">
+                Related Products</a></h2>
+                
+            
+        </div>
+    </div>
+
+
+
+    
+
+
+<script>
+  
+// Function to add product to cart
+function addToCart() {
+    alert("Product added to cart!");
+    // Additional logic to update the cart count, show a message, etc.
+}
+
+// Function to toggle quick view popup
+function toggleQuickView(displayState) {
+    const popup = document.getElementById("quick-view-popup");
+    popup.style.display = displayState;
+}
+
+// Event listeners
+document.querySelector(".add-to-cart").addEventListener("click", addToCart);
+
+document.querySelectorAll(".quick-view").forEach(button => {
+    button.addEventListener("click", () => toggleQuickView("block"));
+});
+
+document.querySelector(".close-popup").addEventListener("click", () => toggleQuickView("none"));
+
+</script>
+
+</body>
+</html>
