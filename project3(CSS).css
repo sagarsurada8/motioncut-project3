@@ -1,0 +1,68 @@
+body{
+    background-color: #4c3b3b;
+}
+img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+    border:2px solid red; 
+}
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #444;
+}
+button {
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    padding: 10px 20px; /* Adjust padding for more/less space */
+    font-size: 16px; /* Adjust the font size */
+    border-radius: 5px; /* Optional: for rounded corners */
+    background-color: skyblue; /* Optional: for background color */
+    color: black; /* Optional: for text color */
+    cursor: pointer; /* Optional: for pointer */
+    margin: 50px; /* Optional: for margin */
+}
+
+
+ul{
+   
+    list-style: none;
+}
+li{
+    padding: 10px;
+    display: inline;
+    font-size: 30px;
+}
+a{
+    color: orangered;
+    text-decoration: none;
+}
+/* side by side  */
+.product-container {
+    display: flex;
+    background-color: #444;
+    color: white;
+    padding: auto;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 2;
+}
+.additional-sections {
+   
+    background-color:#333;
+    color: white;
+    
+}
